@@ -1,0 +1,48 @@
+﻿@using Lawyer_2.Models.ViewModel
+@model List<SelectListItem>
+
+<div class="editorRowAddress">
+    <div class="row">
+        <div class="form-group col-md-2">
+            <label>الدولة</label>
+            <input class="form-control" type="text" name="Country" value="Egypt" hidden="hidden" />
+            <input class="form-control" type="text" name="C" value="Egypt" disabled="disabled" />
+        </div>
+        <div class="form-group col-md-2">
+            <label>المحافظة</label>
+            <select name="City" class="form-control">
+                <option value="0">اختيار المدينة</option>
+                @foreach (var item in Model)
+                {
+                    <option value="@item.Value">@item.Text</option>
+                }
+            </select>
+        </div>
+        <div class="form-group col-md-2">
+            <label>المنطقة</label>
+            <input class="form-control" type="text" name="Region" />
+        </div>
+        <div class="form-group col-md-2">
+            <label>الرقم البريدي</label>
+            <input class="form-control" type="number" name="PostalCode" />
+        </div>
+        <div class="form-group col-md-2">
+            <label>شارع</label>
+            <input class="form-control" type="text" name="Street" />
+        </div>
+        <div class="form-group col-md-2">
+            <label>شارع 2</label>
+            <input class="form-control" type="text" name="Street2" />
+        </div>
+    </div>
+    @if (ViewBag.Show)
+    {
+        <button class="btn btn-danger rounded form-group deleteRowAddress " type="button">مسح</button>
+    }
+</div>
+
+<script>
+    $(".deleteRowAddress").click(function () {
+        $(this).parent('.editorRowAddress').remove();
+    })
+</script>

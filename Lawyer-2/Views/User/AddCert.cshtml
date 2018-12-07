@@ -1,0 +1,39 @@
+﻿<div class="editRowCert">
+    <div class="row">
+        <div class="form-group col-md-2">
+            <label>الشهادة المعتمدة</label>
+            <input class="form-control" type="text" name="Name" />
+        </div>
+        <div class="form-group col-md-2">
+            <label>مكان الشهاده</label>
+            <input class="form-control" type="text" name="Location" />
+        </div>
+        <div class="form-group col-md-2">
+            <label>وصف الشهاده</label>
+            <input class="form-control" type="text" name="Description" />
+        </div>
+        <div class="form-group col-md-2">
+            <label>تاريخ بدايه الدراسه</label>
+            <input class="form-control" type="date" name="StartDate" />
+        </div>
+        <div class="form-group col-md-2">
+            <label>تاريخ نهاية الدراسه</label>
+            <input class="form-control" type="date" name="EndDate" />
+        </div>
+        <div class="form-group col-md-2">
+            <label>تاريخ انتهاء الشهاده</label>
+            <input class="form-control" type="date" name="ExpDate" />
+        </div>
+    </div>
+    @if (ViewBag.Show)
+    {
+        <button class="btn btn-danger rounded form-group deleteRowCert" type="button">مسح</button>
+    }
+</div>
+
+<script>
+    $(".deleteRowCert").click(function () {
+        $(this).parent('.editRowCert').remove();
+    })
+</script>
+

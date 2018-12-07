@@ -1,0 +1,275 @@
+﻿@using Lawyer_2.Models.ViewModel
+@model FirstRegisterViewModel
+@{
+    ViewBag.Title = "Register";
+}
+<div class="modal fade" id="myModal" style="font-family:'Sakkal Majalla'">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 id="modalTitle"></h4>
+            </div>
+            <div class="modal-body">
+                <fieldset id="submitForm">
+                    <div class="row">
+                        @for (int i = 1; i <= Model.UserTypes.Count; i++)
+                        {
+                            <div class="col-md-4">
+                                <button data-target="#myModal" data-toggle="modal" data-backdrop="static" data-keyboard="false" class="btn btn-primary" onclick="SetFreelance(@i)">@Model.UserTypes[i - 1].Text</button>
+                            </div>
+                        }
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="form-group mt-2"><h4>التسجيل</h4></div>
+
+    <div class="row col-md-12">
+        <div class="col-md-1 d-inline-block"><label>الإسم</label></div>
+        <div class="col-md-3 d-inline-block"><input class="form-control" type="text" name="FirstName" /></div>
+        <div class="col-md-1"><label>إسم الأب</label></div>
+        <div class="col-md-3"><input class="form-control" type="text" name="MiddleName" /></div>
+        <div class="col-md-1"><label>إسم العائلة</label></div>
+        <div class="col-md-3"><input class="form-control" type="text" name="LastName" /></div>
+    </div>
+    <hr />
+    <input hidden="hidden" name="IsFreeLancer" id="isFreeLance" />
+    <input hidden="hidden" name="ProviderType" id="userType" />
+
+    <div class="row col-md-12">
+        <div class="col-md-2"><label>إسم المستخدم</label></div>
+        <div class="col-md-4"><input class="form-control" type="text" name="UserName" /></div>
+        <div class="col-md-2"><label>تاريخ الميلاد</label></div>
+        <div class="col-md-4"><input class="form-control" type="date" name="DOB" /></div>
+    </div>
+
+    <div class="row col-md-12 mt-2">
+        <div class="col-md-2"><label>كلمة السر</label></div>
+        <div class="col-md-4"><input class="form-control" type="password" name="ConfirmPassword" /></div>
+    </div>
+
+    <div class="row col-md-12 mt-2">
+        <div class="col-md-2 mt-2"><label>تأكيد كلمة السر</label></div>
+        <div class="col-md-4"><input class="form-control" type="password" name="Password" /></div>
+    </div>
+
+    <div class="row col-md-12 mt-2">
+        <div class="col-md-2"><label>البريد الإلكتروني</label></div>
+        <div class="col-md-4"><input class="form-control" type="email" name="Email" /></div>
+    </div>
+
+    <div class="row col-md-12 mt-2">
+        <div class="col-md-2"><label>الاختصاص</label></div>
+        <div class="col-md-4">
+            <select name="ProviderDegree" class="form-control">
+                <option value="0">الدرجة</option>
+                @foreach (var item in Model.ProviderDegrees)
+                {
+                    <option value="@item.Value">@item.Text</option>
+                }
+            </select>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row col-md-12 mt-2">
+            <div class="form-group">
+                <div id="addAddress">
+                </div>
+                <button type="button" onclick="AddAddress()">إضافة عنوان</button>
+            </div>
+            <div class="form-group">
+                <div id="addTelephone">
+                </div>
+                <button type="button" onclick="AddTelephone()">إضافة تليفون</button>
+            </div>
+            <div class="form-group">
+                <div id="addEduQual">
+                </div>
+                <button type="button" onclick="AddEduQual()">إضافة شهادة جامعية</button>
+            </div>
+            <div class="form-group">
+                <div id="addCert">
+                </div>
+                <button type="button" onclick="AddCert()">إضافة شهادة معتمدة</button>
+            </div>
+
+
+            <div class="row col-md-12">
+                <div class="col-md-4"></div>
+                <div class="col-md-4"> </div>
+                <div class="col-md-offset-2 col-md-4 text-left">
+                    <button type="submit" class="btn btn-default" onclick="Register()">تسجيل</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+        ShowPopup();
+
+        function ShowPopup() {
+            $("#modalTitle").html("نوع التسجيل");
+            $('#myModal').modal({ backdrop: 'static', keyboard: false })
+        }
+
+        AddPartial("../User/AddAddress", '#addAddress', false);
+        AddPartial("../User/AddTelephone", '#addTelephone', false);
+        AddPartial("../User/AddEduQual", '#addEduQual', false);
+        AddPartial("../User/AddCert", '#addCert', false);
+    }())
+
+    function AddAddress() {
+        AddPartial("../User/AddAddress", '#addAddress', true);
+    };
+
+    function AddTelephone() {
+        AddPartial("../User/AddTelephone", '#addTelephone', true);
+    };
+
+    function AddEduQual() {
+        AddPartial("../User/AddEduQual", '#addEduQual', true);
+    };
+
+    function AddCert() {
+        AddPartial("../User/AddCert", '#addCert', true);
+    };
+
+    function AddPartial(url, id, show) {
+        $.ajax({
+            url: url,
+            contentType: "application/json",
+            data: { show: show },
+            success: function (a) {
+                $(id).append(a);
+            },
+            error: function (err) {
+            }
+        });
+    }
+    function SetFreelance(index) {
+        if (index == 1) {
+            $("#isFreeLance").val(false);
+        }
+        else {
+            $("#isFreeLance").val(true);
+        }
+        $("#userType").val(index);
+    }
+
+    function Register() {
+        var addresses = [];
+        var addressList = $("#addAddress").children(".editorRowAddress");
+        var telephones = [];
+        var telephoneList = $("#addTelephone").children(".editRowTelephone");
+        var eduQuals = [];
+        var eduQualList = $("#addEduQual").children(".editorRowEduQual");
+        var certs = [];
+        var certList = $("#addCert").children(".editRowCert");
+
+        addressList.each(function (a, b) {
+            var addressJson = {
+                Country: "",
+                Region: "",
+                PostalCode: "",
+                Street: "",
+                Street2: "",
+                City: ""
+            };
+            addressJson.Country = $(b).find("input[name = Country]").val();
+            addressJson.Region = $(b).find("input[name = Region]").val();
+            addressJson.PostalCode = $(b).find("input[name = PostalCode]").val();
+            addressJson.Street = $(b).find("input[name = Street]").val();
+            addressJson.Street2 = $(b).find("input[name = Street2]").val();
+            addressJson.City = $(b).find("select[name = City]").val();
+            addresses.push(addressJson);
+        })
+
+        telephoneList.each(function (a, b) {
+            var telephoneJson = {
+                Phone: ""
+            };
+            telephoneJson.Phone = $(b).find("input[name = Phone]").val();
+            telephones.push(telephoneJson);
+        })
+
+        eduQualList.each(function (a, b) {
+            var eduQualJson = {
+                QualDate: "",
+                QualDesc: "",
+                Degree: "",
+                University: "",
+                College: "",
+                QualType: ""
+            };
+            eduQualJson.QualDate = $(b).find("input[name = QualDate]").val();
+            eduQualJson.QualDesc = $(b).find("input[name = QualDesc]").val();
+            eduQualJson.Degree = $(b).find("select[name = Degree]").val();
+            eduQualJson.University = $(b).find("select[name = University]").val();
+            eduQualJson.College = $(b).find("select[name = College]").val();
+            eduQualJson.QualType = $(b).find("select[name = QualType]").val();
+            eduQuals.push(eduQualJson);
+        })
+
+        certList.each(function (a, b) {
+            var certJson = {
+                Name: "",
+                Location: "",
+                Description: "",
+                ExpDate: "",
+                StartDate: "",
+                EndDate: ""
+            };
+            certJson.Name = $(b).find("input[name = Name]").val();
+            certJson.Location = $(b).find("input[name = Location]").val();
+            certJson.Description = $(b).find("input[name = Description]").val();
+            certJson.ExpDate = $(b).find("input[name = ExpDate]").val();
+            certJson.StartDate = $(b).find("input[name = StartDate]").val();
+            certJson.EndDate = $(b).find("input[name = EndDate]").val();
+            certs.push(certJson);
+        })
+
+        var json = {
+            FirstName: $("input[name = FirstName]").val(),
+            MiddleName: $("input[name = MiddleName]").val(),
+            LastName: $("input[name = LastName]").val(),
+            UserName: $("input[name = UserName]").val(),
+            DOB: $("input[name = DOB]").val(),
+            Email: $("input[name = Email]").val(),
+            Password: $("input[name = Password]").val(),
+            ConfirmPassword: $("input[name = ConfirmPassword]").val(),
+            IsFreelance: $("#isFreeLance").val(),
+            ProviderTypeViewModel: {
+                Id: $("input[name = ProviderType]").val()
+            },
+            ProviderDegreeViewModel: {
+                Id: $("select[name = ProviderDegree]").val()
+            },
+            Addresses: addresses,
+            Telephones: telephones,
+            EduQuals: eduQuals,
+            Certifications: certs
+        }
+        $.ajax({
+            url: "/Account/Register",
+            method: "POST",
+            data: json,
+            success: function (a) {
+                window.location.href = a.redirecturl;
+            },
+            error: function (err) {
+
+            }
+        });
+    }
+
+</script>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,360 @@
+E:\Lawyer-2015-3\Lawyer-2\obj\Debug\Lawyer-2.csprojAssemblyReference.cache
+E:\Lawyer-2015-3\Lawyer-2\obj\Debug\Lawyer-2.csproj.CoreCompileInputs.cache
+E:\Lawyer-2015-3\Lawyer-2\bin\ApplicationInsights.config
+E:\Lawyer-2015-3\Lawyer-2\bin\Lawyer-2.dll.config
+E:\Lawyer-2015-3\Lawyer-2\bin\Lawyer-2.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Lawyer-2.pdb
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\csc.exe
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\csc.exe.config
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\csc.rsp
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\csi.exe
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\csi.exe.config
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\csi.rsp
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.AppContext.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Collections.Immutable.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Console.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.IO.Compression.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.IO.FileSystem.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.IO.Pipes.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Reflection.Metadata.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Security.AccessControl.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Security.Claims.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.ValueTuple.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Xml.XPath.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\vbc.exe
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\vbc.exe.config
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\vbc.rsp
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\VBCSCompiler.exe
+E:\Lawyer-2015-3\Lawyer-2\bin\roslyn\VBCSCompiler.exe.config
+E:\Lawyer-2015-3\Lawyer-2\bin\Antlr3.Runtime.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\EntityFramework.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\EntityFramework.SqlServer.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.DependencyCollector.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.Web.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.WindowsServer.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.ApplicationInsights.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Google.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Web.Infrastructure.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Newtonsoft.Json.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\Owin.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\System.Web.Helpers.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\System.Web.Mvc.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\System.Web.Optimization.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\System.Web.Razor.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\System.Web.WebPages.Deployment.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\System.Web.WebPages.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\System.Web.WebPages.Razor.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\WebGrease.dll
+E:\Lawyer-2015-3\Lawyer-2\bin\System.Web.Helpers.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\System.Web.Mvc.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\System.Web.Optimization.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\System.Web.Razor.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\System.Web.WebPages.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\System.Web.WebPages.Deployment.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\System.Web.WebPages.Razor.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\Newtonsoft.Json.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\Antlr3.Runtime.pdb
+E:\Lawyer-2015-3\Lawyer-2\bin\EntityFramework.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\EntityFramework.SqlServer.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Google.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.DependencyCollector.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.WindowsServer.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.Web.xml
+E:\Lawyer-2015-3\Lawyer-2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Lawyer-2015-3\Lawyer-2\obj\Debug\Lawyer-2.csproj.CopyComplete
+E:\Lawyer-2015-3\Lawyer-2\obj\Debug\Lawyer-2.dll
+E:\Lawyer-2015-3\Lawyer-2\obj\Debug\Lawyer-2.pdb
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\ApplicationInsights.config
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Lawyer-2.dll.config
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Lawyer-2.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Lawyer-2.pdb
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\csc.exe
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\csc.exe.config
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\csc.rsp
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\csi.exe
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\csi.exe.config
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\csi.rsp
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.AppContext.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Collections.Immutable.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Console.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.IO.Compression.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.IO.FileSystem.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.IO.Pipes.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Reflection.Metadata.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Security.AccessControl.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Security.Claims.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.ValueTuple.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Xml.XPath.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\vbc.exe
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\vbc.exe.config
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\vbc.rsp
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\VBCSCompiler.exe
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\VBCSCompiler.exe.config
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Antlr3.Runtime.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\EntityFramework.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\EntityFramework.SqlServer.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.DependencyCollector.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.Web.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.WindowsServer.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.ApplicationInsights.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Google.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Web.Infrastructure.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Newtonsoft.Json.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Owin.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.Helpers.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.Mvc.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.Optimization.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.Razor.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.WebPages.Deployment.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.WebPages.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.WebPages.Razor.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\WebGrease.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.Helpers.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.Mvc.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.Optimization.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.Razor.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.WebPages.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.WebPages.Deployment.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.WebPages.Razor.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Newtonsoft.Json.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Antlr3.Runtime.pdb
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\EntityFramework.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\EntityFramework.SqlServer.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Google.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.DependencyCollector.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.WindowsServer.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.Web.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Projects\Lawyer-2015-3\Lawyer-2\obj\Debug\Lawyer-2.dll
+E:\Projects\Lawyer-2015-3\Lawyer-2\obj\Debug\Lawyer-2.pdb
+E:\Projects\Lawyer-2015-3\Lawyer-2\obj\Debug\Lawyer-2.csprojAssemblyReference.cache
+E:\Projects\Lawyer-2015-3\Lawyer-2\obj\Debug\Lawyer-2.csproj.CoreCompileInputs.cache
+E:\Projects\Lawyer-2015-3\Lawyer-2\obj\Debug\Lawyer-2.csproj.CopyComplete
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\ApplicationInsights.config
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Lawyer-2.dll.config
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Lawyer-2.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Lawyer-2.pdb
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\csc.exe
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\csc.exe.config
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\csc.rsp
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\csi.exe
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\csi.exe.config
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\csi.rsp
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.AppContext.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Collections.Immutable.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Console.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.IO.Compression.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.IO.FileSystem.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.IO.Pipes.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Reflection.Metadata.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Security.AccessControl.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Security.Claims.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.ValueTuple.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Xml.XPath.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\vbc.exe
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\vbc.exe.config
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\vbc.rsp
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\VBCSCompiler.exe
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\roslyn\VBCSCompiler.exe.config
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Antlr3.Runtime.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\EntityFramework.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\EntityFramework.SqlServer.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.DependencyCollector.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.Web.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.WindowsServer.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.ApplicationInsights.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Google.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Web.Infrastructure.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Newtonsoft.Json.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Owin.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.Helpers.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.Mvc.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.Optimization.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.Razor.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.WebPages.Deployment.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.WebPages.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.WebPages.Razor.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\WebGrease.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.Helpers.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.Mvc.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.Optimization.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.Razor.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.WebPages.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.WebPages.Deployment.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\System.Web.WebPages.Razor.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Newtonsoft.Json.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Antlr3.Runtime.pdb
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\EntityFramework.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\EntityFramework.SqlServer.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Google.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.DependencyCollector.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.WindowsServer.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.AI.Web.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\obj\Debug\Lawyer-2.csprojAssemblyReference.cache
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\obj\Debug\Lawyer-2.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\obj\Debug\Lawyer-2.csproj.CopyComplete
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\obj\Debug\Lawyer-2.dll
+D:\Visual Studio Projects\Lawyer-2015-3\Lawyer-2\obj\Debug\Lawyer-2.pdb

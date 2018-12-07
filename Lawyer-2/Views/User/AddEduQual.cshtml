@@ -1,0 +1,66 @@
+﻿@using Lawyer_2.Models.ViewModel
+@model EduQualPartialViewModel
+
+<div class="editorRowEduQual">
+    <div class="row">
+        <div class="form-group col-md-2">
+            <label>الجامعة</label>
+            <select name="University" class="form-control">
+                <option value="0">اختيار الجامعة</option>
+                @foreach (var item in Model.Univeristies)
+                {
+                    <option value="@item.Value">@item.Text</option>
+                }
+            </select>
+        </div>
+        <div class="form-group col-md-2">
+            <label>الكلية</label>
+            <select name="College" class="form-control">
+                <option value="0">اختيار الكلية</option>
+                @foreach (var item in Model.Colleges)
+                {
+                    <option value="@item.Value">@item.Text</option>
+                }
+            </select>
+        </div>
+        <div class="form-group col-md-2">
+            <label>التقدير</label>
+            <select name="Degree" class="form-control">
+                <option value="0">اختيار التقدير</option>
+                @foreach (var item in Model.Degrees)
+                {
+                    <option value="@item.Value">@item.Text</option>
+                }
+            </select>
+        </div>
+        <div class="form-group col-md-2">
+            <label>QualType</label>
+            <select name="QualType" class="form-control">
+                <option value="0">اختيار نوع الشهادة</option>
+                @foreach (var item in Model.QualificationTypes)
+                {
+                    <option value="@item.Value">@item.Text</option>
+                }
+            </select>
+        </div>
+        <div class="form-group col-md-2">
+            <label>تاريخ التخرج</label>
+            <input class="form-control" type="date" name="QualDate" />
+        </div>
+        <div class="form-group col-md-2">
+            <label>وصف الشهادة</label>
+            <input class="form-control" type="text" name="QualDesc" />
+        </div>
+    </div>
+    @if (ViewBag.Show)
+    {
+        <button class="btn btn-danger rounded form-group deleteRowEduQual" type="button">مسح</button>
+    }
+</div>
+
+<script>
+    $(".deleteRowEduQual").click(function () {
+        $(this).parent('.editorRowEduQual').remove();
+    })
+</script>
+

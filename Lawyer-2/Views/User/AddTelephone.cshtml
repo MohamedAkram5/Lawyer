@@ -1,0 +1,16 @@
+﻿<div class="editRowTelephone">
+    <div class="form-group">
+        <label>تليفون</label>
+        <input class="form-control" type="number" name="Phone" />
+    </div>
+    @if (ViewBag.Show)
+    {
+        <button class="btn btn-danger rounded form-group deleteRowTelephone" type="button">مسح</button>
+    }
+</div>
+
+<script>
+    $(".deleteRowTelephone").click(function () {
+        $(this).parent('.editRowTelephone').remove();
+    })
+</script>

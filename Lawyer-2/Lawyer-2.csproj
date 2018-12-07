@@ -250,6 +250,12 @@
     <Content Include="fonts\Amiri-BoldSlanted.ttf" />
     <Content Include="fonts\Amiri-Regular.ttf" />
     <Content Include="fonts\Amiri-Slanted.ttf" />
+    <Content Include="fonts\bahij.ttf" />
+    <Content Include="fonts\boutros-ads.ttf" />
+    <Content Include="fonts\noto-urdu.ttf" />
+    <Content Include="fonts\shorooq.ttf" />
+    <Content Include="fonts\yaraa-regular.ttf" />
+    <Content Include="fonts\yaraa.ttf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />

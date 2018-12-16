@@ -3,6 +3,13 @@
 @{
     ViewBag.Title = "Register";
 }
+
+<style>
+    .val {
+        border:red solid;
+    }
+</style>
+
 <div class="modal fade" id="myModal" style="font-family:'Noto Nastaliq Urdu Draft'">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -62,7 +69,7 @@
         <div class="col-md-4"><input class="form-control" type="email" name="Email" /></div>
     </div>
 
-    <div class="row col-md-12 mt-2">
+    <div class="row col-md-12 mt-2 hiddenLawyer" hidden="hidden">
         <div class="col-md-2"><label>الاختصاص</label></div>
         <div class="col-md-4">
             <select name="ProviderDegree" class="form-control">
@@ -88,12 +95,12 @@
                 </div>
                 <button type="button" onclick="AddTelephone()">إضافة تليفون</button>
             </div>
-            <div class="form-group">
+            <div class="form-group hidden" hidden="hidden">
                 <div id="addEduQual">
                 </div>
                 <button type="button" onclick="AddEduQual()">إضافة شهادة جامعية</button>
             </div>
-            <div class="form-group">
+            <div class="form-group hidden" hidden ="hidden">
                 <div id="addCert">
                 </div>
                 <button type="button" onclick="AddCert()">إضافة شهادة معتمدة</button>
@@ -118,12 +125,26 @@
             $("#modalTitle").html("نوع التسجيل");
             $('#myModal').modal({ backdrop: 'static', keyboard: false })
         }
-
+        AddValid();
         AddPartial("../User/AddAddress", '#addAddress', false);
         AddPartial("../User/AddTelephone", '#addTelephone', false);
-        AddPartial("../User/AddEduQual", '#addEduQual', false);
-        AddPartial("../User/AddCert", '#addCert', false);
+      
     }())
+
+    function AddValid() {
+        $("input").each((a, b) => {
+            $(b).on('change', (event) => {
+                $(b).removeClass('val');
+            })
+        })
+
+        $(document).on('change', 'select', function () {
+            var val = $(this).find(":selected").val();
+            if (val != 0) {
+                $(this).removeClass('val');
+            }
+        })
+    }
 
     function AddAddress() {
         AddPartial("../User/AddAddress", '#addAddress', true);
@@ -148,6 +169,7 @@
             data: { show: show },
             success: function (a) {
                 $(id).append(a);
+                AddValid();
             },
             error: function (err) {
             }
@@ -159,8 +181,24 @@
         }
         else {
             $("#isFreeLance").val(true);
+            if (index == 2) {
+                $(".hiddenLawyer").removeAttr("hidden");
+            }
+            $(".hidden").removeAttr("hidden");
+            AddPartial("../User/AddEduQual", '#addEduQual', false);
+            AddPartial("../User/AddCert", '#addCert', false);
         }
         $("#userType").val(index);
+    }
+
+    var valid = true;
+    function Validate(obj, input) {
+        if ((input && obj.val() != '') || (!input && obj.val() != 0)) {
+        }
+        else {
+            obj.addClass("val");
+            valid = false;
+        }
     }
 
     function Register() {
@@ -182,6 +220,7 @@
                 Street2: "",
                 City: ""
             };
+
             addressJson.Country = $(b).find("input[name = Country]").val();
             addressJson.Region = $(b).find("input[name = Region]").val();
             addressJson.PostalCode = $(b).find("input[name = PostalCode]").val();
@@ -234,39 +273,46 @@
             certJson.EndDate = $(b).find("input[name = EndDate]").val();
             certs.push(certJson);
         })
-
-        var json = {
-            FirstName: $("input[name = FirstName]").val(),
-            MiddleName: $("input[name = MiddleName]").val(),
-            LastName: $("input[name = LastName]").val(),
-            UserName: $("input[name = UserName]").val(),
-            DOB: $("input[name = DOB]").val(),
-            Email: $("input[name = Email]").val(),
-            Password: $("input[name = Password]").val(),
-            ConfirmPassword: $("input[name = ConfirmPassword]").val(),
-            IsFreelance: $("#isFreeLance").val(),
-            ProviderTypeViewModel: {
-                Id: $("input[name = ProviderType]").val()
-            },
-            ProviderDegreeViewModel: {
-                Id: $("select[name = ProviderDegree]").val()
-            },
-            Addresses: addresses,
-            Telephones: telephones,
-            EduQuals: eduQuals,
-            Certifications: certs
-        }
-        $.ajax({
-            url: "/Account/Register",
-            method: "POST",
-            data: json,
-            success: function (a) {
-                window.location.href = a.redirecturl;
-            },
-            error: function (err) {
-
+        $("input").each((a, b) => {
+            Validate($(b) , true);
+        })
+        $("select").each((a, b) => {
+            Validate($(b), false);
+        })
+        if (valid) {
+            var json = {
+                FirstName: $("input[name = FirstName]").val(),
+                MiddleName: $("input[name = MiddleName]").val(),
+                LastName: $("input[name = LastName]").val(),
+                UserName: $("input[name = UserName]").val(),
+                DOB: $("input[name = DOB]").val(),
+                Email: $("input[name = Email]").val(),
+                Password: $("input[name = Password]").val(),
+                ConfirmPassword: $("input[name = ConfirmPassword]").val(),
+                IsFreelance: $("#isFreeLance").val(),
+                ProviderTypeViewModel: {
+                    Id: $("input[name = ProviderType]").val()
+                },
+                ProviderDegreeViewModel: {
+                    Id: $("select[name = ProviderDegree]").val()
+                },
+                Addresses: addresses,
+                Telephones: telephones,
+                EduQuals: eduQuals,
+                Certifications: certs
             }
-        });
+            $.ajax({
+                url: "/Account/Register",
+                method: "POST",
+                data: json,
+                success: function (a) {
+                    window.location.href = a.redirecturl;
+                },
+                error: function (err) {
+
+                }
+            });
+        }
     }
 
 </script>

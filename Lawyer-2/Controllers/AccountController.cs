@@ -192,13 +192,7 @@ namespace Lawyer_2.Controllers
                 IdentityResult result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
-                    UserProviderDegree userProviderDegree = new UserProviderDegree()
-                    {
-                        ProviderDegreeId = model.ProviderDegreeViewModel.Id,
-                        UserId = user.Id,
-                    };
-                    db.UserProviderDegree.Add(userProviderDegree);
-
+                  
                     List<Address> addresses = new List<Address>();
                     foreach (var item in model.Addresses)
                     {
@@ -228,40 +222,52 @@ namespace Lawyer_2.Controllers
                     }
                     db.Telephone.AddRange(telephones);
 
-                    List<EducationalQualification> educationalQualifications = new List<EducationalQualification>();
-                    foreach (var item in model.EduQuals)
+                    if (user.UserTypeId == 2)
                     {
-                        EducationalQualification edu = new EducationalQualification()
+                        UserProviderDegree userProviderDegree = new UserProviderDegree()
                         {
-                            CollegeId = item.College,
-                            DegreeId = item.Degree,
-                            UniversityId = item.University,
-                            QualificationType = item.QualType,
-                            GraduationYear = item.QualDate,
-                            QualDesc = item.QualDesc,
-                            UserId = user.Id
+                            ProviderDegreeId = model.ProviderDegreeViewModel.Id,
+                            UserId = user.Id,
                         };
-                        educationalQualifications.Add(edu);
+                        db.UserProviderDegree.Add(userProviderDegree);
                     }
-                    db.EducationalQualification.AddRange(educationalQualifications);
 
-                    List<Certification> certifications = new List<Certification>();
-                    foreach (var item in model.Certifications)
+                    if (user.UserTypeId > 1)
                     {
-                        Certification c = new Certification()
+                        List<EducationalQualification> educationalQualifications = new List<EducationalQualification>();
+                        foreach (var item in model.EduQuals)
                         {
-                            Descreption = item.Description,
-                            EndDate = item.EndDate,
-                            ExpDate = item.ExpDate,
-                            Location = item.Location,
-                            Name = item.Name,
-                            StartDate = item.StartDate,
-                            UserId = user.Id
-                        };
-                        certifications.Add(c);
-                    }
-                    db.Certification.AddRange(certifications);
+                            EducationalQualification edu = new EducationalQualification()
+                            {
+                                CollegeId = item.College,
+                                DegreeId = item.Degree,
+                                UniversityId = item.University,
+                                QualificationType = item.QualType,
+                                GraduationYear = item.QualDate,
+                                QualDesc = item.QualDesc,
+                                UserId = user.Id
+                            };
+                            educationalQualifications.Add(edu);
+                        }
+                        db.EducationalQualification.AddRange(educationalQualifications);
 
+                        List<Certification> certifications = new List<Certification>();
+                        foreach (var item in model.Certifications)
+                        {
+                            Certification c = new Certification()
+                            {
+                                Descreption = item.Description,
+                                EndDate = item.EndDate,
+                                ExpDate = item.ExpDate,
+                                Location = item.Location,
+                                Name = item.Name,
+                                StartDate = item.StartDate,
+                                UserId = user.Id
+                            };
+                            certifications.Add(c);
+                        }
+                        db.Certification.AddRange(certifications);
+                    }
                     await db.SaveChangesAsync();
                     await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);
 
